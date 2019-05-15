@@ -17,9 +17,7 @@ class GameViewController: UIViewController, GADInterstitialDelegate {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        
-        // TEST AD CODE: ca-app-pub-3940256099942544/4411468910
-        // MY CODE: ca-app-pub-7842172355491612/2346701510
+
         interstitial = GADInterstitial(adUnitID: "ca-app-pub-3940256099942544/4411468910")
         interstitial.delegate = self
         
